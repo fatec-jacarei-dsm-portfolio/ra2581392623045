@@ -1,56 +1,20 @@
-# Portfólio Acadêmico – Heloisa Cardillo Lima
+# Portfólio de Projetos - Fatec Jacareí
 
-Portfólio acadêmico desenvolvido para a disciplina de Design Digital da FATEC São José dos Campos, curso de Desenvolvimento de Software Multiplataformas.
-
-🔗 **[Acessar portfólio](https://heloisa-cardillo.github.io/portifolio-academico/)**
-
----
-
-## Sobre
-
-Este portfólio reúne minha trajetória acadêmica, projetos desenvolvidos, experiências profissionais e competências técnicas adquiridas ao longo da graduação em Desenvolvimento de Software Multiplataformas na FATEC SJC.
+**Aluno:** Heloisa Cardillo Lima  
+**Curso:** Desenvolvimento de Software Multiplataforma  
+**Turma:** 1º Sem. 2025
 
 ---
 
-## Tecnologias
+**Portfólio Online**
 
-- HTML5
-- CSS3
-- JavaScript
+[Acesse o Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392623045/)
 
 ---
 
-## Estrutura
+**Repositório 2DSM**
 
-```
-portifolio-academico/
-├── index.html          # Introdução e apresentação
-├── curriculo.html      # Formação acadêmica e experiências
-├── projetos.html       # Projetos desenvolvidos
-├── habilidades.html    # Hard skills, soft skills e idiomas
-├── cursos.html         # Certificados e cursos
-├── extracurricular.html # Eventos e atividades extracurriculares
-├── contato.html        # Informações de contato
-├── style.css           # Estilos globais
-├── nav.js              # Navegação dinâmica
-├── script.js           # Scripts gerais
-├── image/              # Imagens e ícones
-├── pdfs/               # Certificados e documentos
-└── app/                # Vídeos demonstrativos
-```
-
----
-
-## Como rodar localmente
-
-1. Clone o repositório:
-```powershell
-git clone https://github.com/heloisa-cardillo/portifolio-academico.git
-```
-
-2. Abra a pasta no VS Code e use a extensão **Live Server** para visualizar.
-
----
+[Acesse o Repositório](https://github.com/heloisa-cardillo/Portifolio-Completo.git)
 
 ## Contato
 
