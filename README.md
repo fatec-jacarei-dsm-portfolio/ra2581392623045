@@ -1,7 +1,9 @@
 # Portfólio de Projetos - Fatec Jacareí
 
 **Aluno:** Heloisa Cardillo Lima  
+
 **Curso:** Desenvolvimento de Software Multiplataforma  
+
 **Turma:** 1º Sem. 2025
 
 ---
@@ -12,9 +14,15 @@
 
 ---
 
-**Repositório 2DSM**
+**Vídeo do Portfólio 2º semestre**
 
-[Acesse o Repositório](https://github.com/heloisa-cardillo/Portifolio-Completo.git)
+[Assistir ao vídeo](docs/image/portifolio%202%20semestre.mp4)
+
+**Vídeo do Portfólio 4º semestre**
+
+[Assistir ao vídeo](docs/image/portifolio%204%20semestre.mp4)
+
+---
 
 ## Contato
 
