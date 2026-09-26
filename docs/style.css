@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap');
+﻿@import url('fonts/google-fonts.css');
 
 :root {
     --navy: #10207A;
@@ -179,7 +179,7 @@ section:nth-child(even) {
     background: var(--bg);
 }
 
-/* SEÇÕES */
+/* SEÃ‡Ã•ES */
 .section-label {
     font-size: 12px;
     font-weight: 600;
@@ -215,7 +215,7 @@ section:nth-child(even) {
     margin: 16px 0 24px;
 }
 
-/* INTRODUÇÃO */
+/* INTRODUÃ‡ÃƒO */
 #inicio {
     background: var(--white);
     padding: 80px 0 72px;
@@ -383,7 +383,7 @@ section:nth-child(even) {
     gap: 8px;
 }
 
-/* CURRÍCULO */
+/* CURRÃCULO */
 .timeline {
     position: relative;
     padding-left: 24px;
@@ -583,7 +583,7 @@ section:nth-child(even) {
     grid-column: 1 / -1;
 }
 
-/* EXPERIÊNCIAS*/
+/* EXPERIÃŠNCIAS*/
 .exp-list {
     display: flex;
     flex-direction: column;
@@ -652,7 +652,7 @@ section:nth-child(even) {
 }
 
 .exp-desc ul li::before {
-    content: '–';
+    content: 'â€“';
     position: absolute;
     left: 0;
     color: var(--mid);
@@ -1048,7 +1048,7 @@ footer span {
     }
 }
 
-/* ALTERAÇÕES pontuais */
+/* ALTERAÃ‡Ã•ES pontuais */
 .contact-card-info span {
     word-break: break-word;
 }
@@ -1101,7 +1101,7 @@ footer span {
 }
 
 .video-thumb-label::before {
-    content: '▶';
+    content: 'â–¶';
     color: var(--light);
     font-size: 10px;
 }
