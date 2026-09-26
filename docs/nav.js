@@ -5,7 +5,6 @@ const navLinks = [
     { href: 'habilidades.html', label: 'Habilidades' },
     { href: 'cursos.html', label: 'Certificados' },
     { href: 'extracurricular.html', label: 'Extracurricular' },
-    { href: 'contato.html', label: 'Contato' },
 ];
 
 function getCurrentPage() {

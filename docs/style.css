@@ -1155,3 +1155,12 @@ footer span {
     inset: 0;
     z-index: -1;
 }
+
+.project-category-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    color: var(--navy);
+    margin: 40px 0 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+}

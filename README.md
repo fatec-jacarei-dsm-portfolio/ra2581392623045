@@ -14,11 +14,11 @@
 
 ---
 
-**Vídeo do Portfólio 2º semestre**
+**Vídeo 2DSM**
 
 [Assistir ao vídeo](docs/image/portifolio%202%20semestre.mp4)
 
-**Vídeo do Portfólio 4º semestre**
+**Vídeo 4DSM**
 
 [Assistir ao vídeo](docs/image/portifolio%204%20semestre.mp4)
 
@@ -27,5 +27,3 @@
 ## Contato
 
 - LinkedIn: [heloisa-cardillo-lima](https://linkedin.com/in/heloisa-cardillo-lima)
-- GitHub: [heloisa-cardillo](https://github.com/heloisa-cardillo)
-- E-mail: heloisacardillo@gmail.com
