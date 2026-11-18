@@ -1,283 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projetos – Heloisa Cardillo</title>
-    <meta name="description" content="Projetos – Heloisa Cardillo Lima">
-    <link rel="icon" href="image/ideia.gif" type="image/gif">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta name="description" content="Projetos – Heloisa Cardillo Lima" />
+    <link rel="icon" href="image/ideia.gif" type="image/gif" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div id="navbar"></div>
 
     <div class="page-wrapper">
+      <section id="projetos">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Projetos</h2>
+            <div class="divider"></div>
+            <p class="section-subtitle">
+              Projetos acadêmicos e pessoais desenvolvidos ao longo da
+              graduação.
+            </p>
+          </div>
 
-        <section id="projetos">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Projetos</h2>
-                    <div class="divider"></div>
-                    <p class="section-subtitle">Projetos acadêmicos e pessoais desenvolvidos ao longo da graduação.</p>
+          <h3 class="project-category-title">Projetos Acadêmicos</h3>
+          <div class="projects-grid">
+            <!-- CODEX — 4º SEMESTRE -->
+            <div class="project-card featured">
+              <div class="project-card-header">
+                <p class="project-semester">4º Semestre · 2026</p>
+                <h3>Sistema Integrado de Controle de Acesso</h3>
+                <p class="project-client">
+                  Projeto FATEC Jacareí · Equipe Codex
+                </p>
+              </div>
+              <div class="project-card-body">
+                <div>
+                  <p class="project-field-label">Protótipo do Aplicativo</p>
+                  <div class="video-container">
+                    <video controls>
+                      <source
+                        src="image/Prototipo%20Aplicativo.mp4"
+                        type="video/mp4"
+                      />
+                      Seu navegador não suporta vídeo.
+                    </video>
+                  </div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 16px">
+                  <div class="project-field">
+                    <p class="project-field-label">Descrição</p>
+                    Sistema de baixo custo para controle de acesso a edifícios,
+                    integrando um terminal IoT com ESP32 (QR Code e leitura de
+                    tag NFC), um aplicativo móvel e um backend em nuvem que
+                    valida as autorizações e registra todas as tentativas de
+                    acesso.
+                  </div>
+                  <div class="project-field">
+                    <p class="project-field-label">Minha Atuação</p>
+                    Atuei como Product Owner, transformando os requisitos do
+                    cliente em um backlog priorizado e conduzindo o planejamento
+                    das três sprints. Defini o escopo e os critérios de
+                    aceitação das User Stories, ajustei o planejamento ao ritmo
+                    real da equipe sem perder o objetivo do produto e mantive o
+                    alinhamento com o cliente, esclarecendo regras de negócio
+                    antes do desenvolvimento. Também desenvolvi o protótipo das
+                    telas do aplicativo e estruturei a documentação de produto e
+                    técnica, incluindo MVPs, Value Proposition Canvas e a
+                    arquitetura da solução.
+                  </div>
                 </div>
 
-                <h3 class="project-category-title">Projetos Acadêmicos</h3>
-                <div class="projects-grid">
-
-                    <!-- GSW — DESTAQUE -->
-                    <div class="project-card featured">
-                        <div class="project-card-header">
-                            <p class="project-semester">3º Semestre · 2026</p>
-                            <h3>Plataforma de Controle e Gestão de Horas</h3>
-                            <p class="project-client">GSW Soluções Integradas</p>
-                        </div>
-                        <div class="project-card-body">
-                            <div class="project-field">
-                                <p class="project-field-label">Descrição</p>
-                                Sistema desenvolvido para centralizar o registro e acompanhamento de horas trabalhadas
-                                em projetos, com fluxos de aprovação, gestão de tarefas, acompanhamento de equipes e
-                                dashboards personalizados por perfil.
-                            </div>
-                            <div class="project-field">
-                                <p class="project-field-label">Desafio Técnico</p>
-                                O principal desafio foi assumir a função de Product Owner na 2ª sprint, em substituição
-                                ao PO anterior. Foi necessário reestruturar o backlog, revisar o que havia sido entregue
-                                incorretamente e redefinir prioridades em um contexto de baixa disponibilidade do
-                                cliente para validações e alinhamentos. Isso exigiu organização, tomada de decisão
-                                autônoma e comunicação constante com a equipe para garantir clareza sobre requisitos e
-                                entregas dentro do prazo restante.
-                            </div>
-                            <div class="project-field">
-                                <p class="project-field-label">Minha Atuação</p>
-                                Na 1ª sprint, implementei a página de apontamentos do profissional - front-end e
-                                back-end - cobrindo o fluxo completo de registro, edição, envio e acompanhamento de
-                                horas por status.
-                                Nas sprints 2 e 3, já como PO desde o início, precisei reconstruir o backlog
-                                praticamente do zero - reescrevendo User Stories com critérios claros, cenários e
-                                regras de negócio que estavam ausentes ou incorretos. A partir disso, desenvolvi os
-                                protótipos das funcionalidades no Figma e gerenciei as tasks da equipe pelo Jira.
-                                Com um cliente de baixa disponibilidade para validações, tomei decisões de forma
-                                autônoma, assumindo a responsabilidade por definir como seria o produto final. Na
-                                priorização das funcionalidades considerei não apenas os requisitos do cliente, mas
-                                também a capacidade real de execução da equipe, levando em conta disponibilidade,
-                                complexidade das tarefas e prazo da sprint.
-                            </div>
-
-                            <div class="project-tags" style="grid-column: 1 / -1;">
-                                <span class="tag">Next.js</span>
-                                <span class="tag">TypeScript</span>
-                                <span class="tag">React</span>
-                                <span class="tag">Java 21</span>
-                                <span class="tag">Spring Boot</span>
-                                <span class="tag">MySQL</span>
-                                <span class="tag">Docker</span>
-                                <span class="tag">JWT</span>
-                                <span class="tag">Figma</span>
-                                <span class="tag">Jira</span>
-                            </div>
-
-                            <div style="grid-column: 1 / -1; padding-top: 4px;">
-                                <a href="https://github.com/Kernel-Panic-FatecSjc/KernelPanic-3DSM-API" target="_blank"
-                                    class="project-link">↗ Repositório GitHub</a>
-                            </div>
-
-                            <div style="grid-column: 1 / -1;">
-                                <p class="project-field-label">Demonstração Visual</p>
-                                <div class="video-thumbs">
-
-                                    <a href="#lightbox-po" class="video-thumb">
-                                        <img src="image/imagemPo.png" alt="Case Study – Product Owner">
-                                        <div class="video-thumb-label">Product Owner – Sprints 2 e 3</div>
-                                    </a>
-
-                                    <a href="#lightbox-dev" class="video-thumb">
-                                        <img src="image/imagemSprintUm.png" alt="Dev – Sprint 1">
-                                        <div class="video-thumb-label">Desenvolvedora – Sprint 1</div>
-                                    </a>
-
-                                    <a href="#lightbox-sistema" class="video-thumb">
-                                        <img src="image/sistemaFoto.png" alt="Sistema completo">
-                                        <div class="video-thumb-label">Sistema completo</div>
-                                    </a>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- NEWE LOG -->
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <p class="project-semester">2º Semestre · 2025</p>
-                            <h3>Sistema Integrado de Gestão Logística</h3>
-                            <p class="project-client">Newe Log</p>
-                        </div>
-                        <div class="project-card-body">
-                            <div class="project-field">
-                                <p class="project-field-label">Descrição</p>
-                                Plataforma web desenvolvida para centralizar e integrar os processos comerciais,
-                                operacionais e administrativos da Newe Log, reunindo recursos como CRM, gestão de
-                                clientes, funil de vendas, checklists, cotação de frete, controle de acesso,
-                                notificações e dashboards para acompanhamento das operações.
-                            </div>
-                            <div class="project-field">
-                                <p class="project-field-label">Minha Atuação</p>
-                                Atuei como Product Owner e desenvolvedora Front-End, participando da definição e
-                                organização do backlog, levantamento e detalhamento de requisitos, prototipação no Figma
-                                e implementação das interfaces. Também acompanhei as tasks da equipe pelo Jira,
-                                participei da definição de perfis de acesso e realizei testes funcionais para validação
-                                das funcionalidades.
-                            </div>
-                            <div class="project-tags">
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">TypeScript</span>
-                                <span class="tag">React</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">MySQL</span>
-                                <span class="tag">Figma</span>
-                                <span class="tag">Jira</span>
-                            </div>
-                        </div>
-                        <div class="project-card-footer">
-                            <a href="https://github.com/Kernel-Panic-FatecSjc/KernelPanic-2DSM-API" target="_blank"
-                                class="project-link">↗ Repositório GitHub</a>
-                        </div>
-                    </div>
-
-                    <!-- 1º SEM -->
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <p class="project-semester">1º Semestre · 2025</p>
-                            <h3>Visualização de Dados de Importação/Exportação</h3>
-                            <p class="project-client">Projeto FATEC · Smart Farming</p>
-                        </div>
-                        <div class="project-card-body">
-                            <div class="project-field">
-                                <p class="project-field-label">Descrição</p>
-                                Plataforma web para visualização de dados de comércio exterior dos municípios paulistas
-                                (2013–2023), com gráficos interativos de linha e funil, filtros por cidade, país e
-                                código NCM, e banco de dados populado via Python/Pandas.
-                            </div>
-                            <div class="project-field">
-                                <p class="project-field-label">Minha Atuação</p>
-                                Dev Team e Front-End. Prototipação no Figma e implementação de gráficos com Chart.js.
-                            </div>
-                            <div class="project-tags">
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">JavaScript</span>
-                                <span class="tag">Chart.js</span>
-                                <span class="tag">Python</span>
-                                <span class="tag">Pandas</span>
-                                <span class="tag">MySQL</span>
-                                <span class="tag">Docker</span>
-                                <span class="tag">Figma</span>
-                            </div>
-                        </div>
-                        <div class="project-card-footer">
-                            <a href="https://github.com/Kernel-Panic-FatecSjc/KernelPanic-1DSM-API" target="_blank"
-                                class="project-link">↗ Repositório GitHub</a>
-                        </div>
-                    </div>
-
+                <div class="project-tags">
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Express</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">Flutter</span>
+                  <span class="tag">ESP32</span>
+                  <span class="tag">Docker</span>
+                  <span class="tag">JWT</span>
+                  <span class="tag">MQTT</span>
                 </div>
 
-                <h3 class="project-category-title">Projetos Pessoais</h3>
-                <div class="projects-grid">
-
-                    <!-- JULIUS -->
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <p class="project-semester">Projeto Pessoal</p>
-                            <h3>Julius Tracker</h3>
-                            <p class="project-client">Aplicativo Android</p>
-                        </div>
-                        <div class="project-card-body">
-                            <div class="project-field">
-                                <p class="project-field-label">Descrição</p>
-                                Aplicativo mobile para monitorar a rotina de medicação de um agapornis, com registro de
-                                data, medicamento, dosagem e indicadores de comportamento. Primeira experiência com
-                                desenvolvimento mobile.
-                            </div>
-                            <div class="project-field">
-                                <p class="project-field-label">Minha Atuação</p>
-                                Projeto pessoal desenvolvido inteiramente por mim: protótipo criado no Figma e
-                                implementação do código feita no Android Studio.
-                            </div>
-                            <div class="project-tags">
-                                <span class="tag">Kotlin</span>
-                                <span class="tag">Android Studio</span>
-                                <span class="tag">Figma</span>
-                            </div>
-                        </div>
-                        <div class="project-card-footer">
-                            <a href="https://github.com/heloisa-cardillo/JuliusTracker" target="_blank"
-                                class="project-link">↗ Repositório GitHub</a>
-                        </div>
-                        <div style="padding: 0 24px 20px;">
-                            <p class="project-field-label">Demonstração</p>
-                            <div class="video-container">
-                                <video controls>
-                                    <source src="app/studio64_mvEB55NE8e.mp4" type="video/mp4">
-                                    Seu navegador não suporta vídeo.
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-
+                <div style="grid-column: 1 / -1; padding-top: 4px">
+                  <a
+                    href="https://github.com/heloisa-cardillo/ABP-4-Semestre-"
+                    target="_blank"
+                    class="project-link"
+                    >↗ Repositório GitHub</a
+                  >
                 </div>
+              </div>
             </div>
-        </section>
 
+            <!-- GSW — DESTAQUE -->
+            <div class="project-card featured">
+              <div class="project-card-header">
+                <p class="project-semester">3º Semestre · 2026</p>
+                <h3>Plataforma de Controle e Gestão de Horas</h3>
+                <p class="project-client">GSW Soluções Integradas</p>
+              </div>
+              <div class="project-card-body">
+                <div class="project-field" style="grid-column: 1 / -1">
+                  <p class="project-field-label">Descrição</p>
+                  Sistema desenvolvido para centralizar o registro e
+                  acompanhamento de horas trabalhadas em projetos, com fluxos de
+                  aprovação, gestão de tarefas, acompanhamento de equipes e
+                  dashboards personalizados por perfil.
+                </div>
+                <div class="project-field">
+                  <p class="project-field-label">Desafio Técnico</p>
+                  O principal desafio foi assumir a função de Product Owner na
+                  2ª sprint, em substituição ao PO anterior. Foi necessário
+                  reestruturar o backlog, revisar o que havia sido entregue
+                  incorretamente e redefinir prioridades em um contexto de baixa
+                  disponibilidade do cliente para validações e alinhamentos.
+                  Isso exigiu organização, tomada de decisão autônoma e
+                  comunicação constante com a equipe para garantir clareza sobre
+                  requisitos e entregas dentro do prazo restante.
+                </div>
+                <div class="project-field">
+                  <p class="project-field-label">Minha Atuação</p>
+                  Na 1ª sprint, implementei a página de apontamentos do
+                  profissional - front-end e back-end - cobrindo o fluxo
+                  completo de registro, edição, envio e acompanhamento de horas
+                  por status. Nas sprints 2 e 3, já como PO desde o início,
+                  precisei reconstruir o backlog praticamente do zero -
+                  reescrevendo User Stories com critérios claros, cenários e
+                  regras de negócio que estavam ausentes ou incorretos. A partir
+                  disso, desenvolvi os protótipos das funcionalidades no Figma e
+                  gerenciei as tasks da equipe pelo Jira. Com um cliente de
+                  baixa disponibilidade para validações, tomei decisões de forma
+                  autônoma, assumindo a responsabilidade por definir como seria
+                  o produto final. Na priorização das funcionalidades considerei
+                  não apenas os requisitos do cliente, mas também a capacidade
+                  real de execução da equipe, levando em conta disponibilidade,
+                  complexidade das tarefas e prazo da sprint.
+                </div>
+
+                <div class="project-tags" style="grid-column: 1 / -1">
+                  <span class="tag">Next.js</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">React</span>
+                  <span class="tag">Java 21</span>
+                  <span class="tag">Spring Boot</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Docker</span>
+                  <span class="tag">JWT</span>
+                  <span class="tag">Figma</span>
+                  <span class="tag">Jira</span>
+                </div>
+
+                <div style="grid-column: 1 / -1; padding-top: 4px">
+                  <a
+                    href="https://github.com/Kernel-Panic-FatecSjc/KernelPanic-3DSM-API"
+                    target="_blank"
+                    class="project-link"
+                    >↗ Repositório GitHub</a
+                  >
+                </div>
+
+                <div style="grid-column: 1 / -1">
+                  <p class="project-field-label">Demonstração Visual</p>
+                  <div class="video-thumbs">
+                    <a href="#lightbox-po" class="video-thumb">
+                      <img
+                        src="image/imagemPo.png"
+                        alt="Case Study – Product Owner"
+                      />
+                      <div class="video-thumb-label">
+                        Product Owner – Sprints 2 e 3
+                      </div>
+                    </a>
+
+                    <a href="#lightbox-dev" class="video-thumb">
+                      <img
+                        src="image/imagemSprintUm.png"
+                        alt="Dev – Sprint 1"
+                      />
+                      <div class="video-thumb-label">
+                        Desenvolvedora – Sprint 1
+                      </div>
+                    </a>
+
+                    <a href="#lightbox-sistema" class="video-thumb">
+                      <img src="image/sistemaFoto.png" alt="Sistema completo" />
+                      <div class="video-thumb-label">Sistema completo</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- NEWE LOG -->
+            <div class="project-card">
+              <div class="project-card-header">
+                <p class="project-semester">2º Semestre · 2025</p>
+                <h3>Sistema Integrado de Gestão Logística</h3>
+                <p class="project-client">Newe Log</p>
+              </div>
+              <div class="project-card-body">
+                <div class="project-field">
+                  <p class="project-field-label">Descrição</p>
+                  Plataforma web desenvolvida para centralizar e integrar os
+                  processos comerciais, operacionais e administrativos da Newe
+                  Log, reunindo recursos como CRM, gestão de clientes, funil de
+                  vendas, checklists, cotação de frete, controle de acesso,
+                  notificações e dashboards para acompanhamento das operações.
+                </div>
+                <div class="project-field">
+                  <p class="project-field-label">Minha Atuação</p>
+                  Atuei como Product Owner e desenvolvedora Front-End,
+                  participando da definição e organização do backlog,
+                  levantamento e detalhamento de requisitos, prototipação no
+                  Figma e implementação das interfaces. Também acompanhei as
+                  tasks da equipe pelo Jira, participei da definição de perfis
+                  de acesso e realizei testes funcionais para validação das
+                  funcionalidades.
+                </div>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Figma</span>
+                  <span class="tag">Jira</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a
+                  href="https://github.com/Kernel-Panic-FatecSjc/KernelPanic-2DSM-API"
+                  target="_blank"
+                  class="project-link"
+                  >↗ Repositório GitHub</a
+                >
+              </div>
+            </div>
+
+            <!-- 1º SEM -->
+            <div class="project-card">
+              <div class="project-card-header">
+                <p class="project-semester">1º Semestre · 2025</p>
+                <h3>Visualização de Dados de Importação/Exportação</h3>
+                <p class="project-client">Projeto FATEC · Smart Farming</p>
+              </div>
+              <div class="project-card-body">
+                <div class="project-field">
+                  <p class="project-field-label">Descrição</p>
+                  Plataforma web para visualização de dados de comércio exterior
+                  dos municípios paulistas (2013–2023), com gráficos interativos
+                  de linha e funil, filtros por cidade, país e código NCM, e
+                  banco de dados populado via Python/Pandas.
+                </div>
+                <div class="project-field">
+                  <p class="project-field-label">Minha Atuação</p>
+                  Dev Team e Front-End. Prototipação no Figma e implementação de
+                  gráficos com Chart.js.
+                </div>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Chart.js</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Pandas</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Docker</span>
+                  <span class="tag">Figma</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a
+                  href="https://github.com/Kernel-Panic-FatecSjc/KernelPanic-1DSM-API"
+                  target="_blank"
+                  class="project-link"
+                  >↗ Repositório GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <h3 class="project-category-title">Projetos Pessoais</h3>
+          <div class="projects-grid">
+            <!-- JULIUS -->
+            <div class="project-card">
+              <div class="project-card-header">
+                <p class="project-semester">Projeto Pessoal</p>
+                <h3>Julius Tracker</h3>
+                <p class="project-client">Aplicativo Android</p>
+              </div>
+              <div class="project-card-body">
+                <div class="project-field">
+                  <p class="project-field-label">Descrição</p>
+                  Aplicativo mobile para monitorar a rotina de medicação de um
+                  agapornis, com registro de data, medicamento, dosagem e
+                  indicadores de comportamento. Primeira experiência com
+                  desenvolvimento mobile.
+                </div>
+                <div class="project-field">
+                  <p class="project-field-label">Minha Atuação</p>
+                  Projeto pessoal desenvolvido inteiramente por mim: protótipo
+                  criado no Figma e implementação do código feita no Android
+                  Studio.
+                </div>
+                <div class="project-tags">
+                  <span class="tag">Kotlin</span>
+                  <span class="tag">Android Studio</span>
+                  <span class="tag">Figma</span>
+                </div>
+              </div>
+              <div class="project-card-footer">
+                <a
+                  href="https://github.com/heloisa-cardillo/JuliusTracker"
+                  target="_blank"
+                  class="project-link"
+                  >↗ Repositório GitHub</a
+                >
+              </div>
+              <div style="padding: 0 24px 20px">
+                <p class="project-field-label">Demonstração</p>
+                <div class="video-container">
+                  <video controls>
+                    <source
+                      src="app/studio64_mvEB55NE8e.mp4"
+                      type="video/mp4"
+                    />
+                    Seu navegador não suporta vídeo.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- LIGHTBOX PO -->
     <div id="lightbox-po" class="lightbox">
-        <a href="#" class="lightbox-backdrop"></a>
-        <div class="lightbox-inner">
-            <a href="#" class="lightbox-close">✕</a>
-            <video controls>
-                <source src="image/po.mp4" type="video/mp4">
-                Seu navegador não suporta vídeo.
-            </video>
-        </div>
+      <a href="#" class="lightbox-backdrop"></a>
+      <div class="lightbox-inner">
+        <a href="#" class="lightbox-close">✕</a>
+        <video controls>
+          <source src="image/po.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
     </div>
 
     <!-- LIGHTBOX DEV -->
     <div id="lightbox-dev" class="lightbox">
-        <a href="#" class="lightbox-backdrop"></a>
-        <div class="lightbox-inner">
-            <a href="#" class="lightbox-close">✕</a>
-            <video controls>
-                <source src="image/dev.mp4" type="video/mp4">
-                Seu navegador não suporta vídeo.
-            </video>
-        </div>
+      <a href="#" class="lightbox-backdrop"></a>
+      <div class="lightbox-inner">
+        <a href="#" class="lightbox-close">✕</a>
+        <video controls>
+          <source src="image/dev.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
     </div>
 
     <!-- LIGHTBOX SISTEMA -->
     <div id="lightbox-sistema" class="lightbox">
-        <a href="#" class="lightbox-backdrop"></a>
-        <div class="lightbox-inner">
-            <a href="#" class="lightbox-close">✕</a>
-            <video controls>
-                <source src="image/sistemaVideo.mp4" type="video/mp4">
-                Seu navegador não suporta vídeo.
-            </video>
-        </div>
+      <a href="#" class="lightbox-backdrop"></a>
+      <div class="lightbox-inner">
+        <a href="#" class="lightbox-close">✕</a>
+        <video controls>
+          <source src="image/sistemaVideo.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
     </div>
 
     <footer>
-        <p>Portfólio Acadêmico · <span>Heloisa Cardillo Lima</span> · FATEC JACAREÍ · 2026</p>
+      <p>
+        Portfólio Acadêmico · <span>Heloisa Cardillo Lima</span> · FATEC JACAREÍ
+        · 2026
+      </p>
     </footer>
 
     <script src="nav.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
